@@ -1,0 +1,16 @@
+OpenStreetMap data notice / OpenStreetMap 数据许可提示
+
+The OSM source snapshot (osm-source.json) and the database derived from it
+(palace.json) include OpenStreetMap data. They are available under the Open
+Database License 1.0 (ODbL 1.0). Attribution: © OpenStreetMap contributors.
+
+Complete license text:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+OpenStreetMap copyright and attribution guidance:
+https://www.openstreetmap.org/copyright
+
+The Forbidden City scene is an interpretive visual model. Architectural
+approximations added by this project do not turn the OSM-derived database into
+measured survey data. Palace Museum pages were consulted for factual details;
+no museum images, maps, panoramas, or 3D assets are included here.

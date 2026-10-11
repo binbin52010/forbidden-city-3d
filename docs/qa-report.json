@@ -1,0 +1,155 @@
+{
+  "base": "http://127.0.0.1:4187/",
+  "checkedAt": "2026-10-11T09:43:28.051Z",
+  "checks": [
+    {
+      "name": "全部清单模型生成",
+      "passed": true
+    },
+    {
+      "name": "点击三维建筑",
+      "passed": true
+    },
+    {
+      "name": "包含taihe模型",
+      "passed": true
+    },
+    {
+      "name": "taihe定位与详情",
+      "passed": true
+    },
+    {
+      "name": "包含wumen模型",
+      "passed": true
+    },
+    {
+      "name": "wumen定位与详情",
+      "passed": true
+    },
+    {
+      "name": "包含corner模型",
+      "passed": true
+    },
+    {
+      "name": "corner定位与详情",
+      "passed": true
+    },
+    {
+      "name": "包含yuhuayuan模型",
+      "passed": true
+    },
+    {
+      "name": "yuhuayuan定位与详情",
+      "passed": true
+    },
+    {
+      "name": "鼠标旋转",
+      "passed": true
+    },
+    {
+      "name": "标签隐藏",
+      "passed": true
+    },
+    {
+      "name": "中文建筑搜索",
+      "passed": true
+    },
+    {
+      "name": "进入地面漫游",
+      "passed": true
+    },
+    {
+      "name": "WASD行走",
+      "passed": true
+    },
+    {
+      "name": "建筑及边界碰撞",
+      "passed": true
+    },
+    {
+      "name": "中轴门洞可通行",
+      "passed": true
+    },
+    {
+      "name": "午门门洞与U形庭院可通行",
+      "passed": true
+    },
+    {
+      "name": "午门门墩、翼楼与庭院边界碰撞",
+      "passed": true
+    },
+    {
+      "name": "异形建筑按来源轮廓保留院落",
+      "passed": true
+    },
+    {
+      "name": "台阶沿真实轮廓连续登台",
+      "passed": true
+    },
+    {
+      "name": "Esc退出漫游",
+      "passed": true
+    },
+    {
+      "name": "1280×720持续交互至少30FPS",
+      "passed": true
+    },
+    {
+      "name": "手机无横向溢出",
+      "passed": true
+    },
+    {
+      "name": "浏览器无运行错误",
+      "passed": true
+    }
+  ],
+  "interactionFPS": 51,
+  "desktopStats": {
+    "fps": 50,
+    "draws": 131,
+    "triangles": 2731162,
+    "detailBuildings": 0
+  },
+  "initialStats": {
+    "fps": 165,
+    "draws": 131,
+    "triangles": 2731162,
+    "detailBuildings": 0
+  },
+  "collision": {
+    "hallBlocked": true,
+    "outsideBlocked": true,
+    "currentFree": true,
+    "gatesPassable": true
+  },
+  "wumenCollision": {
+    "portalFree": true,
+    "courtFree": true,
+    "mainPierBlocked": true,
+    "wingBlocked": true,
+    "beyondCourtBlocked": true
+  },
+  "irregularCollision": {
+    "sourceCourtEmpty": true,
+    "sourceWallSolid": true,
+    "courtFree": true,
+    "wallBlocked": true
+  },
+  "stair": {
+    "expected": 8.13,
+    "top": {
+      "height": 8.13,
+      "free": true
+    },
+    "middle": {
+      "height": 4.065000000000005,
+      "free": true
+    },
+    "bottom": {
+      "height": 0,
+      "free": true
+    }
+  },
+  "errors": [],
+  "records": 1235
+}

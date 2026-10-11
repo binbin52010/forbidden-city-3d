@@ -1,0 +1,2 @@
+# Tested with Python 3.9.13 for OSM data regeneration.
+shapely==2.0.7

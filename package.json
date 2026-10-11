@@ -1,0 +1,23 @@
+{
+  "name": "forbidden-city-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4186",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4186",
+    "validate-model": "node tools/validate-model.mjs",
+    "qa": "node tools/qa.mjs",
+    "qa:deployment": "node tools/deployment-qa.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/three": "0.185.4",
+    "typescript": "5.9.2",
+    "vite": "7.3.7"
+  }
+}
