@@ -1,0 +1,56 @@
+{
+  "base": "https://binbin52010.github.io/forbidden-city-3d/",
+  "checkedAt": "2026-10-11T09:49:18.779Z",
+  "checks": [
+    {
+      "name": "在线页面HTTP成功",
+      "passed": true
+    },
+    {
+      "name": "在线模型清单完整载入",
+      "passed": true
+    },
+    {
+      "name": "生产脚本、样式及本地模型数据成功载入",
+      "passed": true
+    },
+    {
+      "name": "在线模型点击定位和中文详情",
+      "passed": true
+    },
+    {
+      "name": "六宫院落模型覆盖",
+      "passed": true
+    },
+    {
+      "name": "上线资源无失败及浏览器无错误",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedResources": [],
+  "resources": [
+    {
+      "url": "https://binbin52010.github.io/forbidden-city-3d/",
+      "status": 200
+    },
+    {
+      "url": "https://binbin52010.github.io/forbidden-city-3d/assets/index-DxR8ootj.css",
+      "status": 200
+    },
+    {
+      "url": "https://binbin52010.github.io/forbidden-city-3d/assets/index-DyITNuAO.js",
+      "status": 200
+    },
+    {
+      "url": "https://binbin52010.github.io/forbidden-city-3d/data/palace.json",
+      "status": 200
+    },
+    {
+      "url": "https://binbin52010.github.io/forbidden-city-3d/icon.svg",
+      "status": 200
+    }
+  ],
+  "records": 1235,
+  "passed": true
+}

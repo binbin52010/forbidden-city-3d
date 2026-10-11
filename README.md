@@ -66,4 +66,6 @@ GitHub Actions 从 main 分支运行数据校验和生产构建，再发布到 G
 
 `npm run qa:deployment` 实际访问在线页面，检查生产资源、模型载入、建筑点击及六宫院落，并保存 `docs/deployment-report.json` 和在线截图。
 
+2026-10-11 已实际访问 [GitHub Pages 在线模型](https://binbin52010.github.io/forbidden-city-3d/)，6 项上线检查通过，页面、脚本、样式、模型数据和图标均返回 HTTP 200，浏览器错误和资源失败均为 0。参见 [上线检查记录](docs/deployment-report.json) 与 [首次成功部署记录](docs/deployment-run.json)。
+
 本次生产构建在本机 Chrome 中通过 25 项交互检查：测试地址为 `http://127.0.0.1:4187/`，桌面视口 1280 × 720，性能测量时使用自动画质；持续旋转测得 51 FPS，浏览器运行错误为 0。手机布局检查使用浏览器模拟视口。该结果仅描述本次测试环境，不能代表所有设备的帧率。验证截图位于 `docs/screenshots`，完整记录位于 [qa-report.json](docs/qa-report.json)。
